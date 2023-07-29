@@ -1,0 +1,36 @@
+{
+    "unicast":"134.86.56.94",
+    "logging":
+    {
+        "level":"debug",
+        "console":"true"
+    },
+
+    "applications":
+    [
+        {
+            "name":"tets_service",
+            "id":"0x4444"
+        },
+
+        {
+            "name":"test_client",
+            "id":"0x5555"
+        }
+    ],
+
+    "services":
+    [
+        {
+            "service":"0xA701",
+            "instance":"0x2221",
+            "unreliable":"30509"
+        }
+    ],
+
+    "routing":"test_service",
+    "service-discovery":
+    {
+        "enable":"false"
+    }
+}
